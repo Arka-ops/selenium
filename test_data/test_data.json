@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "TC001",
+      "email": "test@example.com",
+      "password": "Test@1234",
+      "role": "registered_user"
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "name": "iPhone",
+      "search_term": "iPhone",
+      "quantity": 2,
+      "expected_price_range": {"min": 100, "max": 2000}
+    },
+    {
+      "id": "P002",
+      "name": "MacBook",
+      "search_term": "MacBook",
+      "quantity": 1,
+      "expected_price_range": {"min": 500, "max": 5000}
+    }
+  ],
+  "site": {
+    "url": "https://tutorialsninja.com/demo/",
+    "browser": "chrome",
+    "implicit_wait": 10,
+    "explicit_wait": 20,
+    "headless": false
+  }
+}
